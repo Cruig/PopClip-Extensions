@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Synata</string>
+	<key>Extension Identifier</key>
+	<string>com.synata.extension</string>
+	<key>Extension Description</key>
+	<string>Open Synata in a web browser to search for the selected text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>https://app.synata.com/#search/:{popclip text}</string>
+			<key>Image File</key>
+			<string>synataIcon.png</string>
+			<key>Title</key>
+			<string>Synata_Search</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
